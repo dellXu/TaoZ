@@ -1,0 +1,36 @@
+//
+// Prefix header for all source files of the 'TaoZ' target in the 'TaoZ' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+#endif
+#import <AFNetworking/AFNetworking.h>
+#import <BlocksKit/BlocksKit.h>
+#import <sqlite3.h>
+#import <Toast+UIView.h>
+#define IOS_VERSION [[[UIDevice currentDevice] systemVersion] floatValue]
+
+#define SAFE_RELEASE(_obj) if (_obj != nil) {[_obj release]; _obj = nil;}
+
+
+#define TAOZ_VERSION @"1.0.2"
+#define TAOZAPP_ID   @"573293275"
+//58.246.67.94
+//static NSString * TAOZHU_HOST_Video = @"192.168.1.128:802";
+//static NSString * TAOZHU_HOST_User = @"192.168.1.128:801";
+
+static NSString * TAOZHU_HOST_Video = @"video.taoz.tv";
+static NSString * TAOZHU_HOST_User = @"member.taoz.tv";
+static NSString * TAOZHU_HOST = @"www.taoz.tv";
+//static NSString * TAOZHU_HOST_Video = @"192.168.1.126:802";
+//static NSString * TAOZHU_HOST_User = @"192.168.1.126:801";
+static NSString * APPKEY = @"taozapp2013";

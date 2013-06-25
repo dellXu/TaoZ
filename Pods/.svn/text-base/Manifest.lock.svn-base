@@ -1,0 +1,22 @@
+PODS:
+  - AFNetworking (1.2.1)
+  - BlocksKit (1.8.2):
+    - libffi
+  - JSONKit (1.5pre)
+  - libffi (3.0.11)
+  - Toast (2.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - BlocksKit
+  - JSONKit
+  - Toast
+
+SPEC CHECKSUMS:
+  AFNetworking: a44069e3c9c89867544f6639482f155c7e5f9b41
+  BlocksKit: 7396526b0816734103f6133fbb1a520c8b04e80c
+  JSONKit: 409734ab3407fce90ef7eaa95d7168f38d9a6601
+  libffi: 8a1d9ba43c0c84b546b42c6f742714e73aa07ae1
+  Toast: 05f46f9d48ddf6e29193f802b038e4fb41f806fa
+
+COCOAPODS: 0.19.1
